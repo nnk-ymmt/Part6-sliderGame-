@@ -21,6 +21,7 @@ final class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        numberLabel.text = "\(arc4random_uniform(100))"
         slider.setValue(50, animated: false)
     }
 
