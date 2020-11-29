@@ -59,3 +59,16 @@ final class ViewController: UIViewController {
         present(alert,animated:true ,completion: nil)
     }
 }
+
+
+
+// 改善点
+
+// 共通部は1箇所にまとめる
+// arc4random_uniform(100)だと0~99
+// ramdom関数推奨 https://dev.classmethod.jp/articles/wwdc18-random-number-generator/
+// アニメーションを使わないならslider.valueを設定するだけで良い
+//private func updateValues() {
+//    numberLabel.text = String(Int.random(in: 1...100))
+//    slider.value = 50
+//}
