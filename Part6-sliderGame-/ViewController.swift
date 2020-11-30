@@ -72,3 +72,6 @@ final class ViewController: UIViewController {
 //    numberLabel.text = String(Int.random(in: 1...100))
 //    slider.value = 50
 //}
+
+// sliderの初期値をstoryboardのvalueで設定できないのはiOS14のバグ？
+// https://fahimfarook.medium.com/xcode-12-and-ios-14-developer-bugs-and-issues-ada35920a104
